@@ -1,0 +1,46 @@
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+#modal-add-collection {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1e1e1e99;
+    inset: 0;
+    z-index: 800;
+    display: none;
+}
+
+#close-modal {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#body-modal {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    inherits: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 55;
+    display: flex;
+    flex-flow: column nowrap;
+    user-select: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#header-Modal {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    padding: 15px;
+    padding-bottom: 2.15em;
+    border-bottom: 1px solid rgba(59, 59, 59, 0.158);
+    box-sizing: border-box;
+}
